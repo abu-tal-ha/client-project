@@ -221,7 +221,8 @@ img {
     position: relative;
 }
 .animation span::before {
-    content: "Web Developer";
+    content: 'Google Ads & Web Analytics Expert.';
+    /* content: "Web Developer"; */
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -244,23 +245,23 @@ img {
 @keyframes words {
     0%,
     20% {
-        content: "Frontend Designer.";
+        content: "Google Ads & Web Analytics Expert.";
     }
     21%,
     40% {
-        content: "Web Designer";
+        /* content: "Web Designer"; */
     }
     41%,
     60% {
-        content: "UI / UX Designer";
+        /* content: "UI / UX Designer"; */
     }
     61%,
     80% {
-        content: "Web Developer,";
+        /* content: "Web Developer,"; */
     }
     81%,
     100% {
-        content: "software Tester,";
+        /* content: "software Tester,"; */
     }
 }
 
@@ -426,7 +427,7 @@ img {
 
 .services-box {
     background-color: var(--main-color);
-    height: 300px;
+    height: 480px;
     border-radius:  3rem;
     border-radius: 3rem;
     border: 5px solid transparent;
@@ -457,10 +458,36 @@ img {
 .services-info p {
     font-size: 1.6rem;
     font-weight:  600;
-    max-height: 100px;
+    /* max-height: 100px; */
     line-height: 1.7;
     margin: auto;
 }
+.services-info p strong {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.ad-spend {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.pricing-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.pricing-table td {
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pricing-table td:first-child {
+    font-weight: bold;
+}
+
+
 
 .testimonals {
     background: var(--second-bg-color);
