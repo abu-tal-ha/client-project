@@ -415,6 +415,7 @@ img {
     text-align: center;
     margin: 5rem 0;
     color: white;
+    margin-top: -60px;
 }
 
 .services-container {
@@ -440,12 +441,22 @@ img {
 
 
 
-/* hrtwj */
+/* icondwon */
 
 .iconss {
    position: absolute;
-   top: 410px;
-   left: 400px
+   top: 408px;
+   left: 405px
+}
+.iconss1 {
+    position: absolute;
+    top: 409px;
+    left: 300px;
+}
+.iconss2 {
+    position: absolute;
+    top: 410px;
+    left: 555px;
 }
 
 .services-box:hover {
@@ -709,7 +720,6 @@ testimonial-items {
 
 } */
 
-/* মডাল (Full Screen Popup) */
 .modal {
     display: none;
     position: fixed;
