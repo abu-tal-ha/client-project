@@ -426,6 +426,7 @@ img {
 }
 
 .services-box {
+    position: relative;
     background-color: var(--main-color);
     height: 650px;
     border-radius:  3rem;
@@ -433,6 +434,18 @@ img {
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
+}
+
+
+
+
+
+/* hrtwj */
+
+.iconss {
+   position: absolute;
+   top: 410px;
+   left: 400px
 }
 
 .services-box:hover {
@@ -556,8 +569,8 @@ img {
 } */
 
 .testimonal-item {
-    min-height: 350px;
-    max-width: 350px;
+    min-height: 320px;
+    width: 450px;
     border: 3px solid rgba(238, 238, 238, 0.2);
     border-radius: 2rem;
     margin: 0 2rem;
@@ -576,10 +589,13 @@ img {
     background-position: center; 
     background-repeat: no-repeat; 
 }
-.test {
+testimonial-items {
+    width: 30px;
+}
+/* .test {
     background-image: url("../images/project.png");
 
-}
+} */
 
 /* মডাল (Full Screen Popup) */
 .modal {
@@ -765,5 +781,7 @@ testimonal-item p {
     }
 
 }
+
+
 
 
