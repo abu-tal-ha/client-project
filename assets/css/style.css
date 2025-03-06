@@ -240,7 +240,7 @@ img {
     position: relative;
 }
 .animation span::before {
-    content: 'Google Ads & Web Analytics Expert.';
+    content: 'Google Ads & Web Analytics Expert';
     /* content: "Web Developer"; */
     color: var(--main-color);
     animation: words 20s infinite;
@@ -264,7 +264,7 @@ img {
 @keyframes words {
     0%,
     20% {
-        content: "Google Ads & Web Analytics Expert.";
+        content: "Google Ads & Web Analytics Expert";
     }
     21%,
     40% {
