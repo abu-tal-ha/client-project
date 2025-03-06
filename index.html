@@ -67,7 +67,7 @@
         </div>
 
         <div class="btn-all">
-          <a href="#" class="btn">Load More</a>
+          <!-- <a href="#" class="btn">Load More</a> -->
           <a href="#contact" class="btn">Contact</a>
         </div>
       </div>
@@ -147,56 +147,86 @@
       <h2 class="services">Our Services</h2>
 
       <div class="services-container">
-        <div class="services-box">
-          <div class="services-info">
-            <h4>Google Ads Services:</h4>
-            <p>
-              Drive Profitable Sales with Google Search, Display, and YouTube
-              Ads at Scale, Fast. Our Google Ads management professionals make
-              your paid search marketing success our #1 goal <br />
-              • Keyword Research <br />
-              • Competitor Analysis <br />
-              • Campaign Creation With Attractive Ad Copy <br />
-              • Conversion Rate Optimization <br />
-              • Detailed Reporting & Team Meetings <br />
+     <div>
+      <div class="services-box">
+        <div class="services-info">
+          <h4>Google Ads Services:</h4>
+          <p>
+            Drive Profitable Sales with Google Search, Display, and YouTube
+            Ads at Scale, Fast. Our Google Ads management professionals make
+            your paid search marketing success our #1 goal <br />
+            • Keyword Research <br />
+            • Competitor Analysis <br />
+            • Campaign Creation With Attractive Ad Copy <br />
+            • Conversion Rate Optimization <br />
+            • Detailed Reporting & Team Meetings <br />
 
-              <br />
-              <strong>Price For Google Ads Services:</strong>
-              <br />
-              <table class="pricing-table">
-                <tr>
-                  <td><b>Total Ad Spend:</b></td>
-                  <td>0 - 5000$</td>
-                  <td>5001$ - 10000$</td>
-                  <td>10000$+</td>
-                </tr>
-                <tr>
-                  <td><b>Per Month Service Charge:</b></td>
-                  <td class="borderr">
-                    <box-icon name='move-vertical'></box-icon> 
-                    300$</td>
-                  <td>500$</td>
-                  <td>9% of Total Ad Spend</td>
-                </tr>
+            <br />
+            <strong>Price For Google Ads Services:</strong>
+            <br />
+            <table class="pricing-table">
+              <tr>
+                <td><b>Total Ad Spend:</b></td>
+                <td>0 - 5000$</td>
+                <td>5001$ - 10000$</td>
+                <td>10000$+</td>
+              </tr>
+              <tr>
+                <td><b>Per Month Service Charge:</b></td>
+                <td class="borderr">
+                  <box-icon name='move-vertical'></box-icon> 
+                  300$</td>
+                <td>500$</td>
+                <td>9% of Total Ad Spend</td>
+              </tr>
 
-              </table>
-            </p>
-          </div>
+            </table>
+          </p>
         </div>
-
+        
+      </div>
+      <div style="text-align: center;margin-top: 20px;">
+        <a href="#contact" class="btn">Get Started!</a>
+       </div>
+     </div>
 
         
+       <div>
         <div class="services-box">
           <div class="services-info">
             <h4>Web Analytics Services:</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Laboriosam, molestias.
+              Make analytics your company’s top advantage. Optimize smarter and test faster. See a full view of your website and digital marketing performance. Increase sales and improve ROI. <br>
+              •	Full Tracking Setup For GA4, FB, TIK TOK, Snapchat, Pinterest ETC <br>
+              •	Browser And Server Side Full Tracking Set Up for All Platform. <br>
+              •	Privacy-Centric Conversion Tracking <br>
+              • Cookie Consent Mode Setup and Tracking <br>
+              •	Conversion Attribution Measurement <br>
+              •	Customized Reporting Dashboards <br>
+              •	Expert Analysis & Actionable Insights
+              
+            </p> <br>
+            
+            <p>
+              <strong> Price For Web Analytics Services:</strong> <br>
+                    See The below prices of Browser And Server-Side Full Tracking Set Up for Every Platform <br>
+                    GA4 (Google Analytics) Full Tracking Set Up  –  250$ <br>
+                    Facebook Pixel Full Tracking Set Up  – 250$ <br>
+                    TIK TOK Full Tracking Set Up  –  200$ <br>
+                    Snapchat Full Tracking Set Up  –  200$ <br>
+                    Pinterest Full Tracking Set Up  –  200$ <br>
+                    
+
             </p>
           </div>
+          
         </div>
+        <div style="text-align: center;margin-top: 20px;">
+          <a href="#contact" class="btn">Get Started!</a>
+         </div>
+       </div>
 
-        <div class="services-box">
+        <!-- <div class="services-box">
           <div class="services-info">
             <h4>Beckend Development</h4>
             <p>
@@ -214,8 +244,9 @@
               Laboriosam, molestias.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
+     
     </section>
 
     <!-- Services Section End -->
@@ -226,8 +257,11 @@
       <div class="testimonals-box">
         <h2 class="heading">Testimonials</h2>
         <div class="wrapper">
-          <div class="testimonal-item">
-            <img src="assets/images/first-us.png" alt="img" />
+          <!-- <div class="testimonal-item " onclick="expandImage(this)"> -->
+            <!-- <div class="testimonal-item" onclick="expandImage(this)">
+            </div> -->
+            
+            <!-- <img src="assets/images/first-us.png" alt="img" />
             <h2>talha</h2>
             <div class="rating">
               <i class="bx bxs-star" id="star"></i>
@@ -241,10 +275,20 @@
               reiciendis asperiores voluptas ipsum saepe delectus ducimus ea
               esse sequi nisi, accusamus quidem harum repudiandae autem suscipit
               maxime inventore recusandae! Voluptates.
-            </p>
-          </div>
+            </p> -->
+            <!-- <img src="assets/images/project.png" alt=""> -->
+          <!-- </div> -->
+          
+          <!-- Fullscreen Overlay -->
+          <div class="testimonal-item" onclick="openFullscreen('assets/images/project.png')"></div>
+          <div id="imageModal" class="modal" onclick="closeFullscreen()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="fullImage">
+</div>
+
+          
           <div class="testimonal-item">
-            <img src="assets/images/first-us.png" alt="img" />
+            <!-- <img src="assets/images/first-us.png" alt="img" />
             <h2>talha</h2>
             <div class="rating">
               <i class="bx bxs-star" id="star"></i>
@@ -258,10 +302,17 @@
               reiciendis asperiores voluptas ipsum saepe delectus ducimus ea
               esse sequi nisi, accusamus quidem harum repudiandae autem suscipit
               maxime inventore recusandae! Voluptates.
-            </p>
+            </p> -->
           </div>
+          <div class="testimonal-item" onclick="openFullscreen('assets/images/project.png')"></div>
+          <div id="imageModal" class="modal" onclick="closeFullscreen()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="fullImage">
+</div>
           <div class="testimonal-item">
-            <img src="assets/images/first-us.png" alt="img" />
+            
+            
+            <!-- <img src="assets/images/first-us.png" alt="img" />
             <h2>talha</h2>
             <div class="rating">
               <i class="bx bxs-star" id="star"></i>
@@ -269,7 +320,29 @@
               <i class="bx bxs-star" id="star"></i>
               <i class="bx bxs-star" id="star"></i>
               <i class="bx bxs-star" id="star"></i>
-            </div>
+            </div> -->
+            <p>
+              <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              reiciendis asperiores voluptas ipsum saepe delectus ducimus ea
+              esse sequi nisi, accusamus quidem harum repudiandae autem suscipit
+              maxime inventore recusandae! Voluptates. -->
+            </p>
+          </div>
+          <div class="testimonal-item" onclick="openFullscreen('assets/images/project.png')"></div>
+          <div id="imageModal" class="modal" onclick="closeFullscreen()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="fullImage">
+</div>
+          <div class="testimonal-item">
+            <!-- <img src="assets/images/first-us.png" alt="img" />
+            <h2>talha</h2>
+            <div class="rating">
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+              <i class="bx bxs-star" id="star"></i>
+            </div> -->
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
               reiciendis asperiores voluptas ipsum saepe delectus ducimus ea
@@ -277,6 +350,7 @@
               maxime inventore recusandae! Voluptates.
             </p>
           </div>
+          
         </div>
       </div>
     </section>
@@ -284,7 +358,9 @@
 
     <!-- contact start -->
     <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Us</span></h2>
+     
+      <h2 class="heading">Contact Us<span> For Free Meeting</span></h2>
+    
 
       <form action="">
         <div class="input-group">
@@ -317,10 +393,12 @@
     <!-- footer start -->
     <footer class="footer">
       <div class="social">
-        <a href="#"><i class="bx bxl-facebook-circle"></i></a>
-        <a href="#"><i class="bx bxl-linkedin"></i></a>
-        <a href="#"><i class="bx bxl-github"></i></a>
-        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a target="_blank" href="https://www.facebook.com/alaminPPCspecialist/"><i class="bx bxl-facebook-circle"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/alamin-google-ads-specialist/"><i class="bx bxl-linkedin"></i></a>
+        <a target="_blank" href="https://www.reddit.com/user/amin_ppc/"><i class="bx bxl-reddit"></i
+          ></a>
+        <a target="_blank" href="https://www.instagram.com/alamin_ppc/"><i class="bx bxl-instagram"></i
+          ></a>
       </div>
 
       <ul class="list">
@@ -340,7 +418,7 @@
           <a href="#"> Testimonials</a>
         </li>
       </ul>
-      <p class="copyright">Abu Talha || All Rights Reserved</p>
+      <p class="copyright">Al Amin || All Rights Reserved. 2025</p>
     </footer>
     <!-- footer end -->
 
