@@ -994,6 +994,7 @@ testimonal-item p {
     width: 56vw;
 } */
 
+}
 
 /* মোবাইল রেসপনসিভ */
 @media (max-width: 1024px) {
@@ -1125,6 +1126,8 @@ font-size: 40px;
 
     .home-content h3 {
         font-size: 1rem;
+        padding-left: 0px;
+        /* padding-right: 40px; */
         margin-right: 10px;
     }
 
@@ -1176,7 +1179,6 @@ font-size: 40px;
 
 }
 
-}
 
 @media (max-width: 1024px) {
     .services-container {
