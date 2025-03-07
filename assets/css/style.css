@@ -155,7 +155,7 @@ img {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.8;
-    min-width: 1000px;
+    
 }
 
 .social-icon a {
@@ -1024,7 +1024,7 @@ testimonal-item p {
     .home-content p {
         
         font-size: 1.2rem;
-width: 50px;    
+ 
         /* min-width: unset; */
     }
 
@@ -1074,6 +1074,8 @@ width: 50px;
 
     .home-content p {
         font-size: 1rem;
+   
+
     }
 
     .social-icon a {
@@ -1097,29 +1099,43 @@ width: 50px;
 font-size: 40px;
     }
 }
+
+@media (max-width: 600px) {
+    .home-content p {
+       padding: 45px;
+      
+         
+     }
+    
+}
+
 /* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .home {
         width: 450px;
-        margin-top: 100px;
+        margin-top: 10px;
         margin-bottom: -300px;
     }
     .home-content h1 {
-        font-size: 3.5rem;
+        margin-right: 80px;
+        /* font-size: 3.5rem; */
     }
 
     .home-content h3 {
-        font-size: 2rem;
+        font-size: 1rem;
+        margin-right: 50px;
     }
 
     .home-content p {
-        width: 50px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 80px;
+        padding-left: 10px;
         font-size: 1rem;
         
     }
 
+    .social-icon {
+        margin-right: 80px;
+    }
     .social-icon a {
         width: 2.8rem;
         height: 2.8rem;
@@ -1130,6 +1146,7 @@ font-size: 40px;
         margin-bottom: 350px;
         width: 70%;
         margin-top: 50px;
+        margin-right: 90px;
         /* max-width: 250px; */
     }
 
@@ -1137,6 +1154,7 @@ font-size: 40px;
         font-size: 1.2rem;
         padding: 0.8rem 1.5rem;
         margin-bottom: 20px;
+        margin-right: 110px;
     }
 
     .services {
@@ -1144,16 +1162,23 @@ font-size: 40px;
         width: 500px;
     }
     .services h2 {
-font-size: 40px;
-margin-bottom: -20px;
+        padding-right: 120px;
+        font-size: 40px;
+        margin-bottom: -20px;
     }
+    .services-box {
+        
+        text-align: center;
+        
+    }
+
 }
 
 }
 
 @media (max-width: 1024px) {
     .services-container {
-        grid-template-columns: repeat(1, 1fr); /* ১টা করে card নিচে আসবে */
+        grid-template-columns: repeat(1, 1fr); 
         margin: 0 3rem;
     }
 
@@ -1184,6 +1209,10 @@ margin-bottom: -20px;
 
 /* Extra Small Devices */
 @media (max-width: 480px) {
+    .home-content h3 {
+        font-size: 1rem;
+        /* margin-right: 500px; */
+    }
     .services h2 {
         font-size: 3.5rem;
     }
