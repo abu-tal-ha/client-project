@@ -1061,20 +1061,21 @@ testimonal-item p {
 /* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
 @media (max-width: 480px) {
     .home {
-        margin-top: 100px;
-        margin-bottom: -280px;
+        margin-top: 20px;
+        
+        /* margin-bottom: 280px; */
     }
     .home-content h1 {
         font-size: 3.5rem;
     }
 
     .home-content h3 {
-        font-size: 2rem;
+        font-size: 1.5rem !important;
     }
 
     .home-content p {
-        font-size: 1rem;
-   
+        font-size: 1.5rem;
+         padding-bottom: -300px;
 
     }
 
@@ -1093,6 +1094,7 @@ testimonal-item p {
     .btn {
         font-size: 1.2rem;
         padding: 0.8rem 1.5rem;
+        margin-bottom: 75px;
     }
 
     .services h2 {
@@ -1122,14 +1124,14 @@ font-size: 40px;
     }
 
     .home-content h3 {
-        font-size: 1rem;
-        margin-right: 50px;
+        font-size: 2rem;
+        margin-right: 60px;
     }
 
     .home-content p {
         padding-right: 80px;
         padding-left: 10px;
-        font-size: 1rem;
+        font-size: 1.5rem;
         
     }
 
