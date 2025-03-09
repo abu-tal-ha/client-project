@@ -1072,6 +1072,7 @@ testimonal-item p {
 
     .home-content h3 {
         font-size: 1.3rem !important;
+        /* margin-right: 300px; */
     }
 
     .home-content p {
