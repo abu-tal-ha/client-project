@@ -97,7 +97,7 @@ section {
 }
 
 .home-content {
-
+/* height: 40vh; */
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -232,6 +232,8 @@ img {
     background-color: var(--main-color);
     color: black;
 }
+
+
 
 .animation {
     font-size: 34px;
@@ -892,11 +894,111 @@ testimonal-item p {
 }
 
 
+/* @media (max-width:1285px) {
+    html{
+        font-size: 55%;
+    }
+    .services-container {
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 5rem;
+    }
+    
+}
+
+@media (max-width:991px) {
+    .header{
+        padding: 2rem 3%;
+
+    }
+    .section {
+        padding: 10rem 3% 2rem;
+    }
+    .timeline-items::before {
+        left: 7px;
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+    .timeline-dot {
+        left: 0;
+    }
+    .services {
+        padding-bottom: 3rem;
+    }
+    .testimonals .wrapper {
+        grid-template-columns: repeat(1.1fr);
+    }
+    .contact form {
+        flex-direction: column;
+    }
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+@media (max-width:895px) {
+    #menu-icon {
+        display: block;
+    }
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0,0,0,0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    }
+    .home {
+        flex-direction: column-reverse;
+        margin: 5rem 4rem;
+    }
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    .home-content h1 {
+        font-size: 8rem;
+        margin-top: 3rem;
+    }
+    .home-content p {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .home-img img {
+        width: 56vw;
+    }
+    .services h2 {
+        margin-bottom: 2rem;
+    }
+    .services-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+} */
+
+
 
 
 /* responsive start */
 
-@media (max-width:1285px)  {
+/* @media (max-width:1285px)  {
     
     html {
         font-size: 55%;
@@ -907,8 +1009,8 @@ testimonal-item p {
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
-}
-@media (max-width: 991px) {
+} */
+/* @media (max-width: 991px) {
     header {
         padding: 2rem 3%;
 
@@ -944,9 +1046,9 @@ testimonal-item p {
 .footer {
     padding: 2rem 3%;
 }
-}
+} */
 
-@media(max-width:895px) {
+/* @media(max-width:895px) {
     #menu-icon {
         display: flex;
     }
@@ -972,7 +1074,7 @@ testimonal-item p {
         font-size: 2rem;
         margin: 3rem 0;
         color: white;
-    }
+    } */
     /* .home {
         flex-direction: column-reverse;
         margin: 5rem 4rem;
@@ -993,10 +1095,12 @@ testimonal-item p {
 .home-img img {
     width: 56vw;
 } */
-
+/* 
 }
+ */
 
-/* মোবাইল রেসপনসিভ */
+
+ /* মোবাইল রেসপনসিভ */
 @media (max-width: 1024px) {
     .home {
         flex-direction: column;
@@ -1068,17 +1172,21 @@ testimonal-item p {
     }
     .home-content h1 {
         font-size: 3.5rem;
+        margin-left: -150px;
     }
 
     .home-content h3 {
         font-size: 1.3rem !important;
-        /* margin-right: 300px; */
+        justify-content: left;
+        margin-left: -150px;
+
+        /* margin-right: 30px; */
     }
 
     .home-content p {
         font-size: 1.5rem;
          padding-bottom: -300px;
-
+         margin-left: -50px;
     }
 
     .social-icon a {
@@ -1086,6 +1194,27 @@ testimonal-item p {
         height: 2.8rem;
         font-size: 1.5rem;
     }
+    .animation {
+        text-align: left; 
+    }
+
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%); /* ডান দিক থেকে শুরু হবে */
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0); /* মূল অবস্থানে আসবে */
+            opacity: 1;
+        }
+    }
+    
+    /* Animation Class */
+    .animation {
+        animation: slideInFromRight 1s ease-out forwards;
+        text-align: left; 
+    }
+    
 
     .img img {
         margin-bottom: 350px;
@@ -1099,8 +1228,9 @@ testimonal-item p {
         margin-bottom: 75px;
     }
 
+
     .services h2 {
-font-size: 40px;
+/* font-size: 40px; */
     }
 }
 
@@ -1114,7 +1244,7 @@ font-size: 40px;
 }
 
 /* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
-@media (max-width: 360px) {
+@media (max-width: 320px) {
     .home {
         width: 450px;
         margin-top: 10px;
@@ -1133,9 +1263,9 @@ font-size: 40px;
     }
 
     .home-content p {
-        padding-right: 80px;
+        padding-right: 100px;
         padding-left: 10px;
-        font-size: 1.5rem;
+        font-size: 1rem;
         
     }
 
