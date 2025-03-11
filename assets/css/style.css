@@ -61,18 +61,21 @@ body {
 .logo span {
     text-shadow: 0 0 25px var(--main-color);
 }
+
 .navbar a {
     font-size: 1.8rem;
     color: var(--text-color);
     margin-left: 4rem;
     font-weight: 500;
     transition: all ease 0.4s;
+    
     border-bottom: 3px solid  transparent;
 }
 .navbar a:hover,
 .navbar a:active {
     color: red;
     border-bottom: 3px solid var(--main-color);
+    
 }
 
 #menu-icon {
@@ -1048,7 +1051,7 @@ testimonal-item p {
 }
 } */
 
- /* @media(max-width:895px) {
+  @media(max-width:895px) {
     #menu-icon {
         display: flex;
     }
@@ -1097,7 +1100,7 @@ testimonal-item p {
 } 
 
 }
-  */
+  
 
 
  /* মোবাইল রেসপনসিভ */
@@ -1166,21 +1169,25 @@ testimonal-item p {
 /* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
 @media (max-width: 480px) {
     #menu-icon {
-        display: flex;
+        /* display: flex; */
+        margin-left: 200px;
+        top: 0;
     }
 
     .navbar {
         position: absolute;
         top: 100%;
-        right: 0;
-        width: 50%;
-        padding: 1rem 3%;
+        right: 20px;
+        width: 100%;
+        padding: 1rem 3% ;
+        padding-left: 80px;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
+
     }
     .navbar.active {
         display: block;
@@ -1191,10 +1198,16 @@ testimonal-item p {
         margin: 3rem 0;
         color: white;
     } 
+
+    .header {
+        position: fixed;
+    top: 0;
+    left: 0;
+    }
     .home {
         margin-top: 20px;
         
-       /* margin-bottom: 510; */
+       margin-bottom: -280px;
     }
     .home-content h1 {
         font-size: 3.5rem;
