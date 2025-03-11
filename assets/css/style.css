@@ -893,8 +893,8 @@ testimonal-item p {
     color: white;
 }
 
-
-/* @media (max-width:1285px) {
+/* 
+ @media (max-width:1285px) {
     html{
         font-size: 55%;
     }
@@ -991,7 +991,7 @@ testimonal-item p {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     }
-} */
+}  */
 
 
 
@@ -1048,7 +1048,7 @@ testimonal-item p {
 }
 } */
 
-/* @media(max-width:895px) {
+ /* @media(max-width:895px) {
     #menu-icon {
         display: flex;
     }
@@ -1074,8 +1074,8 @@ testimonal-item p {
         font-size: 2rem;
         margin: 3rem 0;
         color: white;
-    } */
-    /* .home {
+    } 
+     .home {
         flex-direction: column-reverse;
         margin: 5rem 4rem;
     }
@@ -1094,10 +1094,10 @@ testimonal-item p {
 }
 .home-img img {
     width: 56vw;
-} */
-/* 
+} 
+
 }
- */
+  */
 
 
  /* মোবাইল রেসপনসিভ */
@@ -1165,10 +1165,36 @@ testimonal-item p {
 
 /* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
 @media (max-width: 480px) {
+    #menu-icon {
+        display: flex;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    } 
     .home {
         margin-top: 20px;
         
-        /* margin-bottom: 280px; */
+       /* margin-bottom: 510; */
     }
     .home-content h1 {
         font-size: 3.5rem;
@@ -1343,10 +1369,9 @@ testimonal-item p {
 
 
 /* Extra Small Devices */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .home-content h3 {
         font-size: 1rem;
-        /* margin-right: 500px; */
     }
     .services h2 {
         font-size: 3.5rem;
@@ -1373,4 +1398,4 @@ testimonal-item p {
         font-size: 1.3rem;
         padding: 0.8rem 1.5rem;
     }
-}
+} */
