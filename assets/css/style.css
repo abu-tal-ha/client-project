@@ -1172,13 +1172,13 @@ testimonal-item p {
     }
     .home-content h1 {
         font-size: 3.5rem;
-        margin-left: -150px;
+        margin-left: -110px;
     }
 
     .home-content h3 {
         font-size: 1.3rem !important;
         justify-content: left;
-        margin-left: -150px;
+        margin-left: -110px;
 
         /* margin-right: 30px; */
     }
