@@ -246,3 +246,660 @@ font-size: 40px;
         padding: 0.8rem 1.5rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+<!-- Services Section Start -->
+
+<section class="services" id="services">
+  <h2 class="services">Our Services</h2>
+
+  <div class="services-container">
+ <div>
+  <div class="services-box">
+    <div class="services-info">
+      <h4>Google Ads Services:</h4>
+      <p>
+        Drive Profitable Sales with Google Search, Display, and YouTube
+        Ads at Scale, Fast. Our Google Ads management professionals make
+        your paid search marketing success our #1 goal <br />
+        • Keyword Research <br />
+        • Competitor Analysis <br />
+        • Campaign Creation With Attractive Ad Copy <br />
+        • Conversion Rate Optimization <br />
+        • Detailed Reporting & Team Meetings <br />
+
+        <br />
+        <strong>Price For Google Ads Services:</strong>
+        <br />
+        
+        <table class="pricing-table">
+          <tr>
+            <td><b>Total Ad Spend:</b></td>
+            <td>0 - 5000$</td>
+            <td>5001$ - 10000$</td>
+            <td>10000$+</td>
+          </tr>
+        
+         
+
+          <tr>
+            <td><b>Per Month Service Charge:</b></td>
+            <td class="borderr">
+              <box-icon name='move-vertical'></box-icon> 
+              300$</td>
+            <td>500$</td>
+            <td>9% of Total Ad Spend</td>
+          </tr>
+
+        </table>
+
+        <div class="iconss">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOtJREFUSEvt001KA1EQxPFfTmFAxc9biJhzeAHBA3gNV27ceRQR8RKKShSSOwTUhjfwiBleBwy4mF731L+66s3Ihme0YX0DoJnwv4voq1hOG0svFuEB0HwUfxrRFe4wr7CrAFs4x/Uqe30lX+IGLzjDZ0/J27jHES5wuwzpA4zxgGO846RA6gtC/BF7eMYpZllA7AXkCfsV5KMI7GTEY7f1H4RQRHCI159ODgpgit0S4QQd+FcNLUB8EJCIKy6p563E0iueuaATXIakxNcBdJdEJ4uM885ZJqI6luggANFBatYFpETrpQHQjOwbfHcsGQ0PHpUAAAAASUVORK5CYII="/>
+        </div>
+        <div class="iconss1">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOtJREFUSEvt001KA1EQxPFfTmFAxc9biJhzeAHBA3gNV27ceRQR8RKKShSSOwTUhjfwiBleBwy4mF731L+66s3Ihme0YX0DoJnwv4voq1hOG0svFuEB0HwUfxrRFe4wr7CrAFs4x/Uqe30lX+IGLzjDZ0/J27jHES5wuwzpA4zxgGO846RA6gtC/BF7eMYpZllA7AXkCfsV5KMI7GTEY7f1H4RQRHCI159ODgpgit0S4QQd+FcNLUB8EJCIKy6p563E0iueuaATXIakxNcBdJdEJ4uM885ZJqI6luggANFBatYFpETrpQHQjOwbfHcsGQ0PHpUAAAAASUVORK5CYII="/>
+        </div>
+        <div class="iconss2">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOtJREFUSEvt001KA1EQxPFfTmFAxc9biJhzeAHBA3gNV27ceRQR8RKKShSSOwTUhjfwiBleBwy4mF731L+66s3Ihme0YX0DoJnwv4voq1hOG0svFuEB0HwUfxrRFe4wr7CrAFs4x/Uqe30lX+IGLzjDZ0/J27jHES5wuwzpA4zxgGO846RA6gtC/BF7eMYpZllA7AXkCfsV5KMI7GTEY7f1H4RQRHCI159ODgpgit0S4QQd+FcNLUB8EJCIKy6p563E0iueuaATXIakxNcBdJdEJ4uM885ZJqI6luggANFBatYFpETrpQHQjOwbfHcsGQ0PHpUAAAAASUVORK5CYII="/>
+        </div>
+      </p>
+    </div>
+    
+  </div>
+  <div style="text-align: center;margin-top: 20px;">
+    <a href="#contact" class="btn">Get Started!</a>
+   </div>
+ </div>
+
+    
+   <div>
+    <div class="services-box">
+      <div class="services-info">
+        <h4>Web Analytics Services:</h4>
+        <p>
+          Make analytics your company’s top advantage. Optimize smarter and test faster. See a full view of your website and digital marketing performance. Increase sales and improve ROI. <br>
+          •	Full Tracking Setup For GA4, FB, TIK TOK, Snapchat, Pinterest ETC <br>
+          •	Browser And Server Side Full Tracking Set Up for All Platform. <br>
+          •	Privacy-Centric Conversion Tracking <br>
+          • Cookie Consent Mode Setup and Tracking <br>
+          •	Conversion Attribution Measurement <br>
+          •	Customized Reporting Dashboards <br>
+          •	Expert Analysis & Actionable Insights
+          
+        </p> <br>
+        
+        <p>
+          <strong> Price For Web Analytics Services:</strong> <br>
+                See The below prices of Browser And Server-Side Full Tracking Set Up for Every Platform <br>
+                GA4 (Google Analytics) Full Tracking Set Up  –  250$ <br>
+                Facebook Pixel Full Tracking Set Up  – 250$ <br>
+                TIK TOK Full Tracking Set Up  –  200$ <br>
+                Snapchat Full Tracking Set Up  –  200$ <br>
+                Pinterest Full Tracking Set Up  –  200$ <br>
+                
+
+        </p>
+      </div>
+      
+    </div>
+    <div style="text-align: center;margin-top: 20px;">
+      <a href="#contact" class="btn">Get Started!</a>
+     </div>
+   </div>
+  </div>
+ 
+</section>
+
+<!-- Services Section End -->
+
+<!-- testimonal start -->
+
+<section class="testimonals" id="portfolio">
+  <div class="testimonals-box">
+    <h2 class="heading">Portfolio</h2>
+    <div class="wrapper">
+      <div>
+        <div class="testimonal-item" onclick="openFullscreen('assets/images/g1.png')"></div>
+        <div id="imageModal" class="modal" onclick="closeFullscreen()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="fullImage">
+</div>
+      </div>
+      <div>
+        <div class="testimonal-item2" onclick="openFullscreen('assets/images/g2.png')"></div>
+        <div id="imageModal" class="modal" onclick="closeFullscreen()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="fullImage">
+</div>
+      </div>
+      <div>
+        <div class="testimonal-item3" onclick="openFullscreen('assets/images/g4.jpg')"></div>
+        <div id="imageModal" class="modal" onclick="closeFullscreen()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="fullImage">
+</div>
+      </div>
+
+     <div>
+      <div class="testimonal-items4" onclick="openFullscreen('assets/images/w.png')"></div>
+      <div id="imageModal" class="modal" onclick="closeFullscreen()">
+<span class="close">&times;</span>
+<img class="modal-content" id="fullImage">
+</div>
+     
+     </div>
+     <div>
+      <div class="testimonal-items5" onclick="openFullscreen('assets/images/w2.png')"></div>
+      <div id="imageModal" class="modal" onclick="closeFullscreen()">
+<span class="close">&times;</span>
+<img class="modal-content" id="fullImage">
+</div>
+     
+
+     </div>
+      <div>
+        <div class="testimonal-item6" onclick="openFullscreen('assets/images/w3.png')"></div>
+      <div id="imageModal" class="modal" onclick="closeFullscreen()">
+<span class="close">&times;</span>
+<img class="modal-content" id="fullImage">
+</div>
+     
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- testominal end -->
+
+<!-- contact start -->
+<section class="contact" id="contact">
+ 
+  <h2 class="heading">Contact Us<span> For Free Meeting</span></h2>
+
+
+  <form id="myForm" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="70fab2fa-3453-4860-a558-d9343ca7b277" />
+
+    <div class="input-group">
+        <div class="input-box">
+            <input name="name" required type="text" placeholder="Full Name" />
+            <input name="email" required type="email" placeholder="Email" />
+        </div>
+        <div class="input-box">
+            <input name="whatsapp" type="number" placeholder="Whatsapp Number (optional)" />
+            <input name="websiteURL" required type="text" placeholder="Website URL" />
+            <input name="subject" required type="text" placeholder="Subject" />
+        </div>
+    </div>
+
+    <div class="input-group-2">
+        <textarea name="comment" required cols="30" rows="10" placeholder="Write Something Briefly About Your Project..."></textarea>
+        <input type="submit" value="Send message" class="btnn" />
+    </div>
+</form>
+</section>
+<!-- contact end -->
+
+<!-- footer start -->
+<footer class="footer">
+  <div class="social">
+    <a target="_blank" href="https://www.facebook.com/alaminPPCspecialist/"><i class="bx bxl-facebook-circle"></i></a>
+    <a target="_blank" href="https://www.linkedin.com/in/alamin-google-ads-specialist/"><i class="bx bxl-linkedin"></i></a>
+    <a target="_blank" href="https://www.reddit.com/user/amin_ppc/"><i class="bx bxl-reddit"></i
+      ></a>
+    <a target="_blank" href="https://www.instagram.com/alamin_ppc/"><i class="bx bxl-instagram"></i
+      ></a>
+  </div>
+
+  <ul class="list">
+    <li>
+      <a href="#"> FAQ</a>
+    </li>
+    <li>
+      <a href="#"> Services</a>
+    </li>
+    <li>
+      <a href="#"> About Me</a>
+    </li>
+    <li>
+      <a href="#"> Contact</a>
+    </li>
+    <li>
+      <a id="portfolio" href="#"> Portfolio</a>
+    </li>
+  </ul>
+  <p class="copyright">Al Amin || All Rights Reserved. 2025</p>
+</footer>
+<!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive start */
+
+/* @media (max-width:1285px)  {
+    
+    html {
+        font-size: 55%;
+
+    }
+    .services-container {
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 5rem;
+    }
+} */
+/* @media (max-width: 991px) {
+    header {
+        padding: 2rem 3%;
+
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .timeline-items::before{
+        left: 7px;
+
+    }
+    .timeline-item:nth-child(odd){
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+    .timeline-dot  {
+        left: 0;
+    }
+    .services { 
+        padding-bottom: 7rem;
+    }
+    .testimonals .wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact form {
+        flex-direction: column;
+    }
+.footer {
+    padding: 2rem 3%;
+}
+} */
+
+@media(max-width:895px) {
+    #menu-icon {
+        display: flex;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    } 
+     .home {
+        flex-direction: column-reverse;
+        margin: 5rem 4rem;
+    }
+.home-content h3 {
+    font-size: 2.6rem;
+}
+
+.home-content  h1 {
+    font-size: 8rem;
+    margin-top: 3rem;
+}
+
+.home-content p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.home-img img {
+    width: 56vw;
+} 
+
+}
+  
+
+
+ /* মোবাইল রেসপনসিভ */
+@media (max-width: 1024px) {
+    .home {
+        flex-direction: column;
+        text-align: center;
+        padding: 5rem 5%;
+    }
+
+    .home-content {
+        align-items: center;
+        text-align: center;
+        margin-top: 80px;
+        
+    }
+
+    .home-content h1 {
+        margin-top: 40px;
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+        padding-left: 90px;
+        padding-right: 80px;
+    }
+
+    .home-content p {
+        
+        font-size: 1.2rem;
+ 
+        /* min-width: unset; */
+    }
+
+    .social-icon {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-icon a {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.8rem;
+        margin: 1rem;
+    }
+
+    .img img {
+        width: 60%;
+        max-width: 300px;
+    }
+
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 40px;
+    }
+
+    .btn-all {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+/* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
+@media (max-width: 480px) {
+    #menu-icon {
+        /* display: flex; */
+        margin-left: 200px;
+        top: 0;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        width: 100%;
+        padding: 1rem 3% ;
+        padding-left: 80px;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    } 
+
+    .home {
+        margin-top: 20px;
+        
+       margin-bottom: -280px;
+    }
+    .home-content h1 {
+        font-size: 3.5rem;
+        margin-left: -110px;
+    }
+
+    .home-content h3 {
+        font-size: 1.3rem !important;
+        justify-content: left;
+        margin-left: -110px;
+
+        /* margin-right: 30px; */
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+         padding-bottom: -300px;
+         margin-left: -50px;
+    }
+
+    .social-icon a {
+        width: 2.8rem;
+        height: 2.8rem;
+        font-size: 1.5rem;
+    }
+    .animation {
+        text-align: left; 
+    }
+
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%); /* ডান দিক থেকে শুরু হবে */
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0); /* মূল অবস্থানে আসবে */
+            opacity: 1;
+        }
+    }
+    
+    /* Animation Class */
+    .animation {
+        animation: slideInFromRight 1s ease-out forwards;
+        text-align: left; 
+    }
+    
+
+    .img img {
+        margin-bottom: 350px;
+        width: 70%;
+        /* max-width: 250px; */
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.5rem;
+        margin-bottom: 75px;
+    }
+
+
+    .services h2 {
+/* font-size: 40px; */
+    }
+}
+
+@media (max-width: 600px) {
+    .home-content p {
+       padding: 45px;
+      
+         
+     }
+    
+}
+
+/* এক্সট্রা স্মল স্ক্রিনের জন্য (মোবাইল) */
+@media (max-width: 320px) {
+    .home {
+        width: 450px;
+        margin-top: 10px;
+        margin-bottom: -300px;
+    }
+    .home-content h1 {
+        margin-right: 80px;
+        /* font-size: 3.5rem; */
+    }
+
+    .home-content h3 {
+        font-size: 1rem;
+        padding-left: 0px;
+        /* padding-right: 40px; */
+        margin-right: 10px;
+    }
+
+    .home-content p {
+        padding-right: 100px;
+        padding-left: 10px;
+        font-size: 1rem;
+        
+    }
+
+    .social-icon {
+        margin-right: 80px;
+    }
+    .social-icon a {
+        width: 2.8rem;
+        height: 2.8rem;
+        font-size: 1.5rem;
+    }
+
+    .img img {
+        margin-bottom: 350px;
+        width: 70%;
+        margin-top: 50px;
+        margin-right: 90px;
+        /* max-width: 250px; */
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.5rem;
+        margin-bottom: 20px;
+        margin-right: 110px;
+    }
+
+    .services {
+        margin-right: 300px;
+        width: 500px;
+    }
+    .services h2 {
+        padding-right: 120px;
+        font-size: 40px;
+        margin-bottom: -20px;
+    }
+    .services-box {
+       
+        text-align: center;
+        
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .services-container {
+        grid-template-columns: repeat(1, 1fr); 
+        margin: 0 3rem;
+    }
+
+    .services h2 {
+        font-size: 5rem;
+    }
+
+    .services-box {
+        padding: 3rem;
+        text-align: center;
+    }
+
+    .services-info h4 {
+        font-size: 2.2rem;
+    }
+
+    .services-info p {
+        font-size: 1.4rem;
+    }
+
+    .iconss, .iconss1, .iconss2 {
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+
+/* Extra Small Devices */
+/* @media (max-width: 480px) {
+    .home-content h3 {
+        font-size: 1rem;
+    }
+    .services h2 {
+        font-size: 3.5rem;
+    }
+
+    .services-container {
+        margin: 0 2rem;
+    }
+
+    .services-box {
+        width: 400px;
+        padding: 2rem;
+    }
+
+    .services-info h4 {
+        font-size: 2rem;
+    }
+
+    .services-info p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1.3rem;
+        padding: 0.8rem 1.5rem;
+    }
+}  */

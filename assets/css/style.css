@@ -896,7 +896,7 @@ testimonal-item p {
     color: white;
 }
 
-/* 
+
  @media (max-width:1285px) {
     html{
         font-size: 55%;
@@ -994,7 +994,7 @@ testimonal-item p {
     .services-container {
         grid-template-columns: repeat(1,1fr);
     }
-}  */
+} 
 
 
 
@@ -1199,11 +1199,6 @@ testimonal-item p {
         color: white;
     } 
 
-    .header {
-        position: fixed;
-    top: 0;
-    left: 0;
-    }
     .home {
         margin-top: 20px;
         
@@ -1333,7 +1328,7 @@ testimonal-item p {
     }
 
     .services {
-        
+        margin-right: 300px;
         width: 500px;
     }
     .services h2 {
@@ -1342,7 +1337,7 @@ testimonal-item p {
         margin-bottom: -20px;
     }
     .services-box {
-        
+       
         text-align: center;
         
     }
@@ -1382,7 +1377,18 @@ testimonal-item p {
 
 
 /* Extra Small Devices */
-/* @media (max-width: 480px) {
+@media (max-width: 425px) {
+    #menu-icon {
+        /* padding-right: 40px; */
+        justify-content: space-around;
+    }
+    .logo {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        /* padding-left: 40px; */
+        /* font-size: -40px; */
+    }
     .home-content h3 {
         font-size: 1rem;
     }
@@ -1411,4 +1417,384 @@ testimonal-item p {
         font-size: 1.3rem;
         padding: 0.8rem 1.5rem;
     }
-} */
+} 
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* মোবাইল ডিভাইসের জন্য */
+@media (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+
+    .services-box {
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .services-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .services-info p {
+        font-size: 0.95rem;
+    }
+
+    .pricing-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .pricing-table td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    .iconss, .iconss1, .iconss2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        margin-top: 15px;
+    }
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .header {
+        padding: 2rem 6%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .home {
+        flex-direction: column;
+        gap: 5rem;
+        text-align: center;
+    }
+
+    .home-img img {
+        width: 60vw;
+    }
+
+    .home-contact h1 {
+        font-size: 5rem;
+    }
+
+    .home-contact h3 {
+        font-size: 2.8rem;
+    }
+
+    .home-contact p {
+        font-size: 1.4rem;
+        max-width: 90%;
+    }
+
+    .btn-all {
+        gap: 1rem;
+        justify-content: space-between;
+    }
+
+    .text-animation {
+        font-size: 2.4rem;
+    }
+
+    .education,
+    .Testimonials,
+    .contact {
+        padding: 50px 5%;
+    }
+
+    .timeline-item {
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .timeline-item::before {
+        left: 7px;
+    }
+
+    .timeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 37px;
+    }
+
+    .timeline-dot {
+        left: 0;
+    }
+
+    .Services {
+        padding-bottom: 7rem;
+    }
+
+
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+
+    .service-box {
+        height: auto;
+    }
+
+    .Testimonials-box {
+        flex-direction: column;
+    }
+
+    .Testimonials-item .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact form {
+        flex-direction: column;
+
+    }
+
+
+    .input-group-2 {
+        margin-top: 1rem;
+    }
+
+    .footer {
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-right-radius: 2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 2rem 0;
+        color: white;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 45%;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.4rem;
+        margin-left: 1.5rem;
+    }
+
+    .home-contact h1 {
+        font-size: 4rem;
+    }
+
+    .home-contact h3 {
+        font-size: 2.4rem;
+    }
+
+    .home-contact p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        padding: 0.8rem 2rem;
+    }
+
+    .text-animation {
+        font-size: 2rem;
+    }
+
+    .Testimonials-item {
+        max-width: 95%;
+        flex-direction: column;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .social .list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:895px) {
+    #menu-icon {
+        display: block;
+    }
+
+
+    .menu-bar {
+        position: relative;
+        background-color: #333;
+        overflow: hidden;
+    }
+
+
+    .menu-bar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+
+    .menu-bar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .menu-bar .menu-icon {
+        display: none;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .menu-bar a {
+            display: none;
+        }
+
+        .menu-bar .menu-icon {
+            float: right;
+            display: block;
+        }
+
+        .menu-bar.responsive {
+            position: relative;
+        }
+
+        .menu-bar.responsive a {
+            display: block;
+            text-align: left;
+        }
+    }
+
+}
+
+
+.testimonals-box {
+    text-align: center;
+    padding: 2rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 1rem;
+    margin-top: 2rem; */
+}
+
+/* মোবাইল ডিভাইসের জন্য */
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: (2,1fr);
+        padding: 0 1rem;
+    }
+    
+    .testimonal-item,
+    .testimonal-item2,
+    .testimonal-item3,
+    .testimonal-items4,
+    .testimonal-items5,
+    .testimonal-item6 {
+        width: 160px;
+        height: -120px;
+    }
+}
+
+/* Modal Styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
