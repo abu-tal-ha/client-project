@@ -91,7 +91,7 @@ section {
 
 .home {
     
-    background-color: var(--second-bg-color);
+    /* background-color: var(--second-bg-color); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -255,7 +255,7 @@ img {
 
 .animation span::after {
     content: "";
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     position: absolute;
     width: calc(100% + 8px);
     height: 100%;
@@ -1747,8 +1747,8 @@ testimonal-item p {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* gap: 1rem;
-    margin-top: 2rem; */
+    gap: -0.5rem;
+    margin-top: 2rem;
 }
 
 /* মোবাইল ডিভাইসের জন্য */
@@ -1764,10 +1764,11 @@ testimonal-item p {
     .testimonal-items4,
     .testimonal-items5,
     .testimonal-item6 {
-        width: 160px;
-        height: -120px;
+        width: 170px;
+        height: 200px;
     }
 }
+
 
 /* Modal Styling */
 .modal {
@@ -1798,3 +1799,5 @@ testimonal-item p {
     font-weight: bold;
     cursor: pointer;
 }
+
+
