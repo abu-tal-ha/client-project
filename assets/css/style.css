@@ -1125,7 +1125,7 @@ testimonal-item p {
     .home {
         margin-top: 20px;
         
-       margin-bottom: -280px;
+       margin-bottom: -320px;
     }
     .home-content h1 {
         font-size: 3.5rem;
@@ -1334,7 +1334,7 @@ testimonal-item p {
 
     .services h2 {
         font-size: 4.5rem;
-        margin-bottom: 80px;
+        margin-bottom: 20px;
     }
 
     .services-container {
