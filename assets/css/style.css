@@ -239,86 +239,6 @@ img {
 
 
 
-.animation {
-    font-size: 34px;
-    font-weight: 600;
-    min-width: 280px;
-}
-.animation span {
-    position: relative;
-}
-.animation span::before {
-    content: 'Google Ads & Web Analytics Expert';
-    /* content: "Web Developer"; */
-    color: var(--main-color);
-    animation: words 20s infinite;
-}
-
-.animation span::after {
-    content: "";
-    background-color: var(--bg-color);
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    border-left: 3px solid var(--bg-color);
-    right: -8px;
-    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
-@keyframes cursor {
-    to {
-        border-left: 2px solid var(--main-color);
-    }
-}
-@keyframes words {
-    0%,
-    20% {
-        content: "Google Ads & Web Analytics Expert";
-    }
-    21%,
-    40% {
-        /* content: "Web Designer"; */
-    }
-    41%,
-    60% {
-        /* content: "UI / UX Designer"; */
-    }
-    61%,
-    80% {
-        /* content: "Web Developer,"; */
-    }
-    81%,
-    100% {
-        /* content: "software Tester,"; */
-    }
-}
-
-@keyframes typing {
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95%{
-        width: 0;
-    }
-
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85%{
-        width: calc(100% + 8px);
-    }
-     
-}
 
 
 /* Education Start */
@@ -1209,27 +1129,33 @@ testimonal-item p {
     }
     .home-content h1 {
         font-size: 3.5rem;
-        margin-left: -110px;
+        /* margin-left: -110px; */
     }
 
     .home-content h3 {
-        font-size: 1.3rem !important;
+        font-size: 1.7rem !important;
         justify-content: left;
-        margin-left: -110px;
-
+        /* margin-left: -60px; */
+        text-align: center;
         /* margin-right: 30px; */
+        
     }
 
     .home-content p {
-        font-size: 1.5rem;
+        /* margin-bottom: 90px; */
+        font-size: 1.8rem;
          padding-bottom: -300px;
-         margin-left: -50px;
+         /* margin-left: -50px; */
+         margin-top: 0 !important;
+        padding-top: 0 !important;
     }
 
     .social-icon a {
         width: 2.8rem;
         height: 2.8rem;
         font-size: 1.5rem;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
     }
     .animation {
         text-align: left; 
@@ -1263,11 +1189,6 @@ testimonal-item p {
         font-size: 1.2rem;
         padding: 0.8rem 1.5rem;
         margin-bottom: 75px;
-    }
-
-
-    .services h2 {
-/* font-size: 40px; */
     }
 }
 
