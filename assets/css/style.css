@@ -478,18 +478,18 @@ img {
 
 .iconss {
    position: absolute;
-   top: 408px;
-   left: 405px
+   top: 430px;
+   left: 395px
 }
 .iconss1 {
     position: absolute;
-    top: 409px;
-    left: 300px;
+    top: 429px;
+    left: 290px;
 }
 .iconss2 {
     position: absolute;
-    top: 410px;
-    left: 555px;
+    top: 420px;
+    left: 535px;
 }
 
 .services-box:hover {
@@ -549,7 +549,7 @@ img {
 
 .testimonals {
     background: var(--second-bg-color);
-    
+    margin-top: 70px;
 }
 .testimonals-box {
     margin-top: -100px;
@@ -804,7 +804,7 @@ testimonal-item p {
 
 .contact {
     background-color: var(--bg-color);
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
 .contact h2 {
     margin-bottom:  3rem;
@@ -1412,7 +1412,8 @@ testimonal-item p {
 
 
     .services h2 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
+        margin-bottom: 80px;
     }
 
     .services-container {
@@ -1438,15 +1439,15 @@ testimonal-item p {
     }
 } 
 
-.services-container {
+/* .services-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
-}
+} */
 
 /* মোবাইল ডিভাইসের জন্য */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .services-container {
         grid-template-columns: 1fr;
         padding: 0 1rem;
@@ -1485,7 +1486,7 @@ testimonal-item p {
         padding: 10px 20px;
         margin-top: 15px;
     }
-}
+} */
 
 
 
@@ -1783,13 +1784,11 @@ testimonal-item p {
     .testimonal-items4,
     .testimonal-items5,
     .testimonal-item6 {
+        /* width: 170px; */
+        /* height: 170px !important; */
         width: 170px;
-        height: 170px;
-        margin: 5px; 
-    }
-    .testimonal-item2 {
-        /* margin-right: 30px; */
-        
+        height: 120px !important;
+        margin: 2px;
     }
 }
 
@@ -1800,7 +1799,7 @@ testimonal-item p {
     position: fixed;
     z-index: 10;
     left: 0;
-    top: 0;
+    top: 30%;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -1824,41 +1823,10 @@ testimonal-item p {
     cursor: pointer;
 }
 
-
-/* .services-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .services-box {
-    width: 100%;
-    max-width: 500px; 
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background: white;
-  }
-  
-  .services-info h4 {
-    font-size: 22px;
-  }
-  
-  .services-info p {
-    font-size: 18px;
-    line-height: 1.6;
-  }
-  
-  .pricing-table td {
-    font-size: 18px;
-  } */
   
   /* মোবাইলের জন্য রেসপনসিভ ডিজাইন */
   @media (max-width: 768px) {
-    .all-box {
-        margin-right: 40px;
-    }
+   
     .services-container {
       flex-direction: column;
       align-items: center;
