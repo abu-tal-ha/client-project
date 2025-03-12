@@ -1344,7 +1344,7 @@ testimonal-item p {
 
 }
 
-
+ 
 @media (max-width: 1024px) {
     .services-container {
         grid-template-columns: repeat(1, 1fr); 
@@ -1389,9 +1389,25 @@ testimonal-item p {
         /* padding-left: 40px; */
         /* font-size: -40px; */
     }
+    .home {
+        padding-top: 0px; 
+        margin-top: 0px;
+    }
+
+    .home-content {
+        /* margin-top: 20px !important; */
+        margin-top: 50px;
+        padding-top: 5px !important; 
+    }
+    
     .home-content h3 {
         font-size: 1rem;
     }
+    .home-content p {
+       
+    }
+
+
     .services h2 {
         font-size: 3.5rem;
     }
@@ -1765,7 +1781,12 @@ testimonal-item p {
     .testimonal-items5,
     .testimonal-item6 {
         width: 170px;
-        height: 200px;
+        height: 170px;
+        margin: 5px; 
+    }
+    .testimonal-item2 {
+        /* margin-right: 30px; */
+        
     }
 }
 
@@ -1801,3 +1822,62 @@ testimonal-item p {
 }
 
 
+/* .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .services-box {
+    width: 100%;
+    max-width: 500px; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  .services-info h4 {
+    font-size: 22px;
+  }
+  
+  .services-info p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .pricing-table td {
+    font-size: 18px;
+  } */
+  
+  /* মোবাইলের জন্য রেসপনসিভ ডিজাইন */
+  @media (max-width: 768px) {
+    .all-box {
+        margin-right: 40px;
+    }
+    .services-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .services-box {
+      width: 350px;
+      height: 1100px;
+    }
+  
+    .services-info h4 {
+      font-size: 24px;
+    }
+  
+    .services-info p {
+      font-size: 15px;
+    }
+    .iconss ,
+    .iconss1 ,
+    .iconss2  {
+      width: 25px; 
+      height: 25px;
+    }
+  }
+  
