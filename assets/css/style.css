@@ -1154,8 +1154,7 @@ testimonal-item p {
         width: 2.8rem;
         height: 2.8rem;
         font-size: 1.5rem;
-        margin-top: 0 !important;
-        padding-top: 0 !important;
+        margin-top: -20px;
     }
     .animation {
         text-align: left; 
@@ -1183,6 +1182,7 @@ testimonal-item p {
         margin-bottom: 350px;
         width: 70%;
         /* max-width: 250px; */
+        margin-top: -50px;
     }
 
     .btn {
