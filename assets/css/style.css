@@ -724,6 +724,7 @@ testimonal-item p {
 
 .contact {
     background-color: var(--bg-color);
+    margin-bottom: -200px;
     /* margin-top: -100px; */
 }
 .contact h2 {
@@ -1342,21 +1343,36 @@ testimonal-item p {
     }
 
     .services-box {
-        width: 400px;
+        width: 400px !important;
         padding: 2rem;
     }
 
     .services-info h4 {
         font-size: 2rem;
+       padding-top: -50px;
     }
 
     .services-info p {
         font-size: 1.2rem;
     }
-
+    .price {
+        margin-top: 20px;
+        margin-bottom: 200px; /* মোবাইলে ফাঁকা একটু কমানো */
+    }
     .btn {
         font-size: 1.3rem;
         padding: 0.8rem 1.5rem;
+    }
+
+    .testimonals .heading {
+        font-size: 40px;
+    
+    }
+.contact {
+    margin-bottom: -40px;
+}
+    .contact h2 {
+        font-size: 30px ;
     }
 } 
 
@@ -1755,7 +1771,7 @@ testimonal-item p {
   
     .services-box {
       width: 350px;
-      height: 1100px;
+      height: 900px;
     }
     /* .section {
         padding: -1rem 3% 2rem;
@@ -1763,16 +1779,38 @@ testimonal-item p {
   
     .services-info h4 {
       font-size: 24px;
+      margin-top: -40px;
+      /* margin-bottom: -40px; */
     }
+
   
     .services-info p {
       font-size: 15px;
     }
-    .iconss ,
-    .iconss1 ,
-    .iconss2  {
-      width: 25px; 
-      height: 25px;
+
+   
+
+    .iconss {
+        width: 25px; 
+        height: 25px;
+        top: 474px;
+        left: 170px;
+      } 
+    .iconss1 {
+        width: 25px; 
+        height: 25px;
+        top: 473px;
+        left: 230px;
+      } 
+    .iconss2 {
+        width: 25px; 
+        height: 25px;
+        top: 469px;
+        left: 300px;
+      } 
+      .price {
+        margin-top: 20px;
+        margin-bottom: 200px; 
     }
   }
   
