@@ -1281,7 +1281,7 @@ testimonal-item p {
     }
 
     .services-box {
-        padding: 3rem;
+        /* padding: 3rem; */
         text-align: center;
     }
 
@@ -1328,9 +1328,7 @@ testimonal-item p {
     .home-content h3 {
         font-size: 1rem;
     }
-    .home-content p {
-       
-    }
+    
 
 
     .services h2 {
@@ -1344,7 +1342,9 @@ testimonal-item p {
 
     .services-box {
         width: 380px !important;
+        overflow: hidden;
         padding: 2rem;
+        /* margin: 0; */
     }
 
     .services-info h4 {
@@ -1357,7 +1357,7 @@ testimonal-item p {
     }
     .price {
         margin-top: 20px;
-        margin-bottom: 200px; /* মোবাইলে ফাঁকা একটু কমানো */
+        margin-bottom: 200px;
     }
     .btn {
         font-size: 1.3rem;
@@ -1770,13 +1770,13 @@ testimonal-item p {
     }
   
     .services-box {
-      width: 350px;
-      height: 900px;
+      /* width: 350px;
+      height: 900px; */
+      overflow: hidden;
+      overflow-y: auto;
+      overflow: auto; 
     }
-    /* .section {
-        padding: -1rem 3% 2rem;
-    } */
-  
+    
     .services-info h4 {
       font-size: 24px;
       margin-top: -40px;
@@ -1793,20 +1793,20 @@ testimonal-item p {
     .iconss {
         width: 25px; 
         height: 25px;
-        top: 474px;
-        left: 170px;
+        top: 560px;
+        left: 160px;
       } 
     .iconss1 {
         width: 25px; 
         height: 25px;
-        top: 473px;
-        left: 230px;
+        top: 563px;
+        left: 220px;
       } 
     .iconss2 {
         width: 25px; 
         height: 25px;
-        top: 469px;
-        left: 300px;
+        top: 549px;
+        left: 288px;
       } 
       .price {
         margin-top: 20px;
