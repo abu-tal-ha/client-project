@@ -1350,19 +1350,23 @@ testimonal-item p {
         padding: 2rem;
         /* margin: 0; */
     }
-
+    .services-info strong {
+        margin-top: 300px !important;
+        min-height: 300px !important;
+    }
     .services-info h4 {
-        font-size: 2rem;
+        font-size: 20px !important;
+        min-width: 520px;
        padding-top: -50px;
     }
 
     .services-info p {
         font-size: 1.2rem;
     }
-    .price {
-        margin-top: 20px;
-        margin-bottom: 200px;
-    }
+    /* .services-info fffff {
+        min-width: 300px !important;
+        margin-top: 200px;
+    } */
     .btn {
         font-size: 1.3rem;
         padding: 0.8rem 1.5rem;
@@ -1383,24 +1387,24 @@ testimonal-item p {
     .iconss {
         width: 25px; 
         height: 25px;
-        top: 580px;
-        left: 160px;
+        top: 500px;
+        left: 155px;
       } 
     .iconss1 {
         width: 25px; 
         height: 25px;
-        top: 533px;
+        top: 500px;
         left: 220px;
       } 
     .iconss2 {
         width: 25px; 
         height: 25px;
-        top: 529px;
-        left: 288px;
+        top: 500px;
+        left: 285px;
       } 
-      .price {
-        margin-top: 20px;
-        margin-bottom: 200px; 
+      .fffff {
+        width: 300px;
+        margin-top: 400px;
     }
 } 
 
@@ -1571,6 +1575,25 @@ testimonal-item p {
     .footer {
         padding: 3rem;
     }
+
+     /* .iconss {
+        width: 25px; 
+        height: 25px;
+        top: 580px;
+        left: 160px;
+      } 
+    .iconss1 {
+        width: 25px; 
+        height: 25px;
+        top: 533px;
+        left: 220px;
+      } 
+    .iconss2 {
+        width: 25px; 
+        height: 25px;
+        top: 529px;
+        left: 288px;
+      }   */
 }
 
 @media (max-width: 768px) {
@@ -1818,7 +1841,7 @@ testimonal-item p {
 
    
 
-    .iconss {
+    /* .iconss {
         width: 25px; 
         height: 25px;
         top: 560px;
@@ -1835,7 +1858,7 @@ testimonal-item p {
         height: 25px;
         top: 540px;
         left: 288px;
-      } 
+      }  */
       .price {
         margin-top: 20px;
         margin-bottom: 200px; 
