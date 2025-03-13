@@ -1887,6 +1887,7 @@ testimonal-item p {
         align-items: center;
         justify-content: space-between;
         padding: 2rem 3rem;
+        margin-top: 100px;
     }
 
     .home-content {
@@ -1961,6 +1962,7 @@ testimonal-item p {
 
       .contact form {
         width: 900px;
+        margin-bottom: 40px !important;
         /* margin-bottom: 700px; */
       }
       .footer {
