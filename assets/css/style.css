@@ -1576,24 +1576,7 @@ testimonal-item p {
         padding: 3rem;
     }
 
-     /* .iconss {
-        width: 25px; 
-        height: 25px;
-        top: 580px;
-        left: 160px;
-      } 
-    .iconss1 {
-        width: 25px; 
-        height: 25px;
-        top: 533px;
-        left: 220px;
-      } 
-    .iconss2 {
-        width: 25px; 
-        height: 25px;
-        top: 529px;
-        left: 288px;
-      }   */
+    
 }
 
 @media (max-width: 768px) {
@@ -1640,9 +1623,16 @@ testimonal-item p {
     html {
         font-size: 45%;
     }
-
+    #menu-icon {
+        /* display: flex; */
+        margin-left: 251px;
+        margin-bottom: 40px;
+        
+        top: 0;
+    }
     .logo {
         font-size: 2.5rem;
+        display: flex;
     }
 
     .navbar a {
@@ -1675,10 +1665,32 @@ testimonal-item p {
         max-width: 95%;
         flex-direction: column;
     }
+    .contact {
+        margin-bottom: 50px;
+    }
 
     .footer {
         padding: 20px 0;
     }
+
+      .iconss {
+        width: 25px; 
+        height: 25px;
+        top: 380px;
+        left: 185px;
+      } 
+    .iconss1 {
+        width: 25px; 
+        height: 25px;
+        top: 380px;
+        left: 260px;
+      } 
+    .iconss2 {
+        width: 25px; 
+        height: 25px;
+        top: 370px;
+        left: 340px;
+      }  
 
 }
 
