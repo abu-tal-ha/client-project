@@ -1853,6 +1853,7 @@ testimonal-item p {
     .home-content {
         flex: 1;
         padding-right: 2rem;
+        padding-left: 120px;
     }
 
     .home-content h1 {
@@ -1864,7 +1865,7 @@ testimonal-item p {
     }
 
     .home-content p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 1.6;
     }
 
@@ -1881,24 +1882,48 @@ testimonal-item p {
     .img img {
         max-width: 300px;
         height: auto;
+        margin-right: 130px;
     }
-
+    .services-box {
+        width: 100%;
+        max-width: 500px;
+        overflow: hidden;
+        margin: 0 auto; 
+        padding: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        overflow: auto;  
+    }
+    .services-info h4 {
+       font-size: 2.5rem;
+    }
+    .btn {
+        margin-bottom: 70px;
+    }
     .iconss {
         width: 25px; 
         height: 25px;
-        top: 430px;
+        top: 460px;
         left: 195px;
       } 
     .iconss1 {
         width: 25px; 
         height: 25px;
-        top: 433px;
+        top: 463px;
         left: 278px;
       } 
     .iconss2 {
         width: 25px; 
         height: 25px;
-        top: 429px;
-        left: 358px;
+        top: 449px;
+        left: 368px;
       } 
+
+      .contact form {
+        width: 900px;
+        /* margin-bottom: 700px; */
+      }
+      .footer {
+        margin-top: 200px;
+      }
 }
