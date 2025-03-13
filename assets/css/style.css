@@ -370,7 +370,7 @@ img {
     text-align: center;
     margin: 5rem 0;
     color: white;
-    margin-top: -60px;
+    margin-top: -143px;
 }
 
 .services-container {
@@ -1821,19 +1821,19 @@ testimonal-item p {
     .iconss {
         width: 25px; 
         height: 25px;
-        top: 550px;
+        top: 560px;
         left: 160px;
       } 
     .iconss1 {
         width: 25px; 
         height: 25px;
-        top: 533px;
+        top: 560px;
         left: 220px;
       } 
     .iconss2 {
         width: 25px; 
         height: 25px;
-        top: 529px;
+        top: 540px;
         left: 288px;
       } 
       .price {
@@ -1845,7 +1845,7 @@ testimonal-item p {
 
 
 
-
+/* leptop responsive */
   @media (min-width: 1024px) and (max-width: 1440px) {
     .home {
         display: flex;
@@ -1891,7 +1891,7 @@ testimonal-item p {
     }
     .services-box {
         width: 100%;
-        max-width: 500px;
+        max-width: 650px;
         overflow: hidden;
         margin: 0 auto; 
         padding: 0;
@@ -1908,20 +1908,20 @@ testimonal-item p {
     .iconss {
         width: 25px; 
         height: 25px;
-        top: 460px;
-        left: 195px;
+        top: 420px;
+        left: 275px;
       } 
     .iconss1 {
         width: 25px; 
         height: 25px;
-        top: 463px;
-        left: 278px;
+        top: 420px;
+        left: 378px;
       } 
     .iconss2 {
         width: 25px; 
         height: 25px;
-        top: 449px;
-        left: 368px;
+        top: 420px;
+        left: 508px;
       } 
 
       .contact form {
