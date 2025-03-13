@@ -1308,15 +1308,17 @@ testimonal-item p {
 /* Extra Small Devices */
 @media (max-width: 425px) {
     #menu-icon {
-        /* padding-right: 40px; */
+        padding-right: 40px;
+        
         justify-content: space-around;
+        margin-right: 40px;
     }
     .logo {
         text-align: center;
         display: flex;
         justify-content: space-between;
-        /* padding-left: 40px; */
-        /* font-size: -40px; */
+        /* padding-right: 20px; 
+         font-size: 40px; */
     }
     .home {
         padding-top: 0px; 
@@ -1348,11 +1350,13 @@ testimonal-item p {
         width: 380px !important;
         overflow: hidden;
         padding: 2rem;
+        padding-bottom: 300px;
         /* margin: 0; */
     }
     .services-info strong {
         margin-top: 300px !important;
         min-height: 300px !important;
+        margin-bottom: -588px;
     }
     .services-info h4 {
         font-size: 20px !important;
@@ -1362,7 +1366,11 @@ testimonal-item p {
 
     .services-info p {
         font-size: 1.2rem;
+        padding-bottom: 25px;
     }
+   
+    
+    
     /* .services-info fffff {
         min-width: 300px !important;
         margin-top: 200px;
@@ -1385,23 +1393,23 @@ testimonal-item p {
 
     
     .iconss {
-        width: 25px; 
-        height: 25px;
-        top: 500px;
+        /* width: 25px; 
+        height: 25px; */
+        top: 530px;
         left: 155px;
       } 
     .iconss1 {
         width: 25px; 
         height: 25px;
-        top: 500px;
+        top: 530px;
         left: 220px;
       } 
     .iconss2 {
         width: 25px; 
         height: 25px;
-        top: 500px;
-        left: 285px;
-      } 
+        top: 520px;
+        left: 290px;
+      }  
       .fffff {
         width: 300px;
         margin-top: 400px;
@@ -1626,7 +1634,7 @@ testimonal-item p {
     #menu-icon {
         /* display: flex; */
         margin-left: 251px;
-        margin-bottom: 40px;
+        /* margin-bottom: 40px; */
         
         top: 0;
     }
@@ -1673,7 +1681,7 @@ testimonal-item p {
         padding: 20px 0;
     }
 
-      .iconss {
+      /* .iconss {
         width: 25px; 
         height: 25px;
         top: 380px;
@@ -1690,7 +1698,7 @@ testimonal-item p {
         height: 25px;
         top: 370px;
         left: 340px;
-      }  
+      }   */
 
 }
 
@@ -1833,19 +1841,23 @@ testimonal-item p {
     }
   
     .services-box {
+  
       /* width: 350px;
       height: 900px; */
       overflow: hidden;
       overflow-y: auto;
-      overflow: auto; 
+      /* margin-bottom: -34px; */
     }
     
     .services-info h4 {
+        
       font-size: 24px;
       margin-top: -40px;
       /* margin-bottom: -40px; */
     }
-
+ .services-info fffff {
+   
+ }
   
     .services-info p {
       font-size: 15px;
@@ -1871,8 +1883,8 @@ testimonal-item p {
         top: 540px;
         left: 288px;
       }  */
-      .price {
-        margin-top: 20px;
+      .prices {
+        margin-top: 200px;
         margin-bottom: 200px; 
     }
   }
