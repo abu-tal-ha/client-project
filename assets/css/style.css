@@ -1374,6 +1374,30 @@ testimonal-item p {
     .contact h2 {
         font-size: 30px ;
     }
+
+    
+    .iconss {
+        width: 25px; 
+        height: 25px;
+        top: 580px;
+        left: 160px;
+      } 
+    .iconss1 {
+        width: 25px; 
+        height: 25px;
+        top: 533px;
+        left: 220px;
+      } 
+    .iconss2 {
+        width: 25px; 
+        height: 25px;
+        top: 529px;
+        left: 288px;
+      } 
+      .price {
+        margin-top: 20px;
+        margin-bottom: 200px; 
+    }
 } 
 
 /* .services-container {
@@ -1814,3 +1838,67 @@ testimonal-item p {
     }
   }
   
+
+
+
+
+  @media (min-width: 1024px) and (max-width: 1440px) {
+    .home {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 3rem;
+    }
+
+    .home-content {
+        flex: 1;
+        padding-right: 2rem;
+    }
+
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .home-content p {
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+
+    .social-icon a {
+        font-size: 1.5rem;
+        margin-right: 10px;
+    }
+
+    .btn-all .btn {
+        font-size: 1.5rem;
+        padding: 0.8rem 1.2rem;
+    }
+
+    .img img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .iconss {
+        width: 25px; 
+        height: 25px;
+        top: 430px;
+        left: 195px;
+      } 
+    .iconss1 {
+        width: 25px; 
+        height: 25px;
+        top: 433px;
+        left: 278px;
+      } 
+    .iconss2 {
+        width: 25px; 
+        height: 25px;
+        top: 429px;
+        left: 358px;
+      } 
+}
