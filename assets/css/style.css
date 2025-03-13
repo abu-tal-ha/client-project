@@ -1867,6 +1867,7 @@ testimonal-item p {
     .home-content p {
         font-size: 1.3rem;
         line-height: 1.6;
+        max-width: 380px;
     }
 
     .social-icon a {
@@ -1898,7 +1899,7 @@ testimonal-item p {
        font-size: 2.5rem;
     }
     .btn {
-        margin-bottom: 70px;
+        margin-bottom: 120px;
     }
     .iconss {
         width: 25px; 
